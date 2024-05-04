@@ -4,7 +4,12 @@
     "lastName":"QA",
     "email":"test.qa@disposable.com",
     "telephone":"1234567",
-    "password":"Cypress123!!"
-
-
+    "password":"Cypress123!!",
+    "login":{
+        "userName":"test.qa@disposable.com",
+        "password":"Cypress123!!"
+    },
+    "productName":"Macbook",
+    "sucessMessage":"Success: You have added MacBook to your shopping cart!"
 }
+
