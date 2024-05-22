@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test:addToCart": "npx cypress run --spec cypress/e2e/addToCart.cy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run --record --key 19ee1554-5a03-4f1e-a974-800f3f1d67a2"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "cypress": "^13.8.1",
     "cypress-mochawesome-reporter": "^3.8.2"
   }

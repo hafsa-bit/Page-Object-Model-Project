@@ -2,7 +2,7 @@ class homePage{
     webLocator={
     'serachTextbox':".form-control.input-lg",
     'searchButton':".btn.btn-default.btn-lg",
-    'addToCart':"Add to Cart",
+    'addToCart':".fa.fa-shopping-cart",
     'successMsg':"div.alert.alert-success-dismissible"
     }
 
